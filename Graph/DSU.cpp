@@ -22,3 +22,13 @@ void Union(int x,int y){
         rank[y_parant]++;
     }
 }
+
+void initialize(int n) {
+    parant.resize(n);
+    rank.resize(n);
+    
+    for(int i = 0; i < n; i++) {
+        parant[i] = i;
+        rank[i] = 0;
+    }
+}
