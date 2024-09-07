@@ -1,3 +1,5 @@
+# Undirected Graph
+
 bool isCycle(unordered_map<int,vector<int>>&m,int curr,int parant,vector<int>&vis){
     if(vis[curr] && parant != curr) return true;
     vis[curr] = 1;
